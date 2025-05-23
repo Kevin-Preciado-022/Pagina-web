@@ -12,18 +12,15 @@ body{
     color: #E2E8F0; /* Texto claro para contraste */
     font-family: 'Poppins', sans-serif; /* Fuente moderna */
 }
-
 .menu ul {
     display: flex; 
     list-style: none; 
     padding: 0;
     margin: 0;
 }
-
 .menu li {
     margin: 0 15px; 
 }
-
 .menu a {
     text-decoration: none; 
     color: white; 
@@ -36,27 +33,30 @@ body{
     background-color: #3498db; /* Cambia el color de fondo */
     border-radius: 5px; /* Bordes redondeados */
 }
-
-
-
 .Mision h2 {
-    color: white; 
+    color: white;
+    font-style: italic; 
 }
 .Mision p {
     color: white;
-    text-align: justify; /* Alinea el texto para que tenga un formato uniforme */
+    text-align: center; /* Alinea el texto para que tenga un formato uniforme */
     font-size: 16px; /* Ajusta el tamaño de la fuente */
     line-height: 1.6; /* Mejora la legibilidad aumentando el espaciado entre líneas */
     font-weight: bold; /* Hace que el texto se vea más destacado */
     font-style: italic; /* Aplica un estilo en cursiva */
     margin: 20%;
     padding: 5%;
-    background-color: grey;
-
-   
+    background-color: grey;      
+}
+.Mision img {
+    max-width: 300px;
+    border-radius: 10px;
+    display: block; /* Asegura que el margen funcione correctamente */
+    margin: auto
 }
 .Vision h2 {
-    color: white; 
+    color: white;
+    font-style: italic;
 }
 .Vision p {
     color: white;
@@ -68,6 +68,12 @@ body{
     margin: 20%;
     padding: 5%;
     background-color: grey;
+}
+.Vision img {
+    max-width: 300px;
+    border-radius: 10px;
+    display: block; /* Asegura que el margen funcione correctamente */
+    margin: auto
 }
 .horario {
     width: 350px;
@@ -120,7 +126,6 @@ th {
     background-color: #333;
     color: white;
 }
-
 td:nth-child(1) {
     font-weight: bold;
 }
