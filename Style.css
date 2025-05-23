@@ -1,0 +1,132 @@
+h1 {
+    /* color: white;
+    text-align: center; */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    color: #64FFDA;
+}
+body{
+    /* background-color: black; */
+    background-color: #0A192F; /* Fondo oscuro tecnológico */
+    color: #E2E8F0; /* Texto claro para contraste */
+    font-family: 'Poppins', sans-serif; /* Fuente moderna */
+}
+
+.menu ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 15px; 
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s; /* Agrega una transición suave */
+}
+.menu a:hover {
+    color: white; /* Cambia el color del texto */
+    background-color: #3498db; /* Cambia el color de fondo */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+
+
+.Mision h2 {
+    color: white; 
+}
+.Mision p {
+    color: white;
+    text-align: justify; /* Alinea el texto para que tenga un formato uniforme */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    line-height: 1.6; /* Mejora la legibilidad aumentando el espaciado entre líneas */
+    font-weight: bold; /* Hace que el texto se vea más destacado */
+    font-style: italic; /* Aplica un estilo en cursiva */
+    margin: 20%;
+    padding: 5%;
+    background-color: grey;
+
+   
+}
+.Vision h2 {
+    color: white; 
+}
+.Vision p {
+    color: white;
+    text-align: justify; /* Alinea el texto para que tenga un formato uniforme */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    line-height: 1.6; /* Mejora la legibilidad aumentando el espaciado entre líneas */
+    font-weight: bold; /* Hace que el texto se vea más destacado */
+    font-style: italic; /* Aplica un estilo en cursiva */
+    margin: 20%;
+    padding: 5%;
+    background-color: grey;
+}
+.horario {
+    width: 350px;
+    padding: 20px;
+    border: 2px solid #333; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: black /* Color de fondo */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #999; /* Línea separadora */
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td:nth-child(1) {
+    font-weight: bold;
+}
+
+.valores {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #999;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td:nth-child(1) {
+    font-weight: bold;
+}
+
+.introduccion {
+    margin: 20%;
+    padding: 5%;
+    background-color: grey;
+}
